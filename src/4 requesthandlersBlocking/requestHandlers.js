@@ -2,6 +2,7 @@ var blocker = require("./blocker");
 
 function start() {
 	console.log("Request handler 'start' was called.");
+	blocker.block();
 	return "Hello Start";
 }
 
